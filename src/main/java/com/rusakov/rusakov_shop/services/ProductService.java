@@ -12,8 +12,8 @@ public class ProductService {
     private long ID = 0;
 
     {
-        products.add(new Product(++ID, "MusicMan Majesty", "Masterpiece of electric guitar", "Helsinki", "Matti", 50000));
-        products.add(new Product(++ID, "Iphone 8", "Used phone", "Moscow", "Sasha", 10000));
+        products.add(new Product(++ID, "MusicMan Majesty", "Electric guitar Masterpiece", "Helsinki", "Matti", 5000));
+        products.add(new Product(++ID, "Iphone 8", "Used phone", "Moscow", "Sasha", 150));
     }
 
     public List<Product> listProducts() { return products; }
