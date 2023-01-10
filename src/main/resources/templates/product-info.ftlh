@@ -14,6 +14,10 @@
 <hr>
 <form action="/product/delete/${product.id}" method="post">
     <input type="submit" value="Delete"/>
+<hr>
+        <div>
+            <a href="/">Back to list</a></p>
+        </div>
 </form>
 </body>
 </html>
